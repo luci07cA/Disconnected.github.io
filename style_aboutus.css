@@ -2,7 +2,198 @@
         
 /* Cierre de nav */
 /* Inicio de contenido (poner el código de CSS en la división que le corresponda, el espacio que está entre el inicio y cierre de las secciones es para que pongan el código) */
+   /* inicio del CSS DEL HOME*/
+
+   .HOMESITA{
+    height: 500px;
+    }
     
+    #hero{
+    min-height: 100vh;
+    position: relative;
+    }
+    
+    .homevideo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    object-fit: cover;
+    }
+    
+    .promo{
+      
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    position:relative;
+    z-index: 2;      
+    }
+    
+    .titulo{
+    
+    font-size: 50px;       
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
+    }
+    
+    .titulo{
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+    }
+    
+    .titulo::after,.titulo::before{
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 5px;
+    background-color: white;
+    top: 0.6em;
+    z-index: 2;
+    }
+    
+    .titulo::before{
+    z-index: 2;
+    left: -250px;}
+    
+    .titulo::after{
+    right: -250px;
+    z-index: 2;
+    }
+      
+    .subtexto{
+    font-size: 30px;       
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    color: black;
+    }
+    /*fin del home*/
+    
+    /* CSS de boton */
+    .button{
+      background-color: rgb(235, 149, 36);
+      box-shadow:  rgb(97, 88, 77) 20px 15px;
+      padding: 5px 10px;
+      margin: 4px 2px;
+      border-radius: 5px;
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      font-family: 'Poppins', sans-serif;
+    }
+    
+    .button:hover {
+      background-color: gold;
+      color: white;
+    }
+    
+    .button:active{
+      background-color: gray;
+      color: white;
+     }
+    
+       /*inicio de contenido de home*/
+        
+    .N1{
+        background-color: rgb(33, 235, 235);
+        height: 450px;
+        width: 1330px;
+        }
+    h1{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    color:white;
+    font-size: 40px;
+    }
+    
+    .escritorio{
+        margin: 80px;
+        float: left;
+    }
+    .papa{
+    margin-top: 60px;
+    margin-right: 80px;
+    float: right;
+    height: 500px;
+    width: 600px
+    }
+    
+    h2{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    font-size: 23px;
+    }
+    
+    h3{
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Montserrat Alternates', sans-serif;
+        color:rgb(33, 235, 235);
+        font-size: 40px;   
+    }
+    
+    .what{
+       margin-top: 20px;
+        margin-left: 70px;
+        height: 60px;
+        width: 500px;
+    }
+    
+    .celulares{
+        float: left;
+        top: -50px;
+       
+    }
+    .des{
+        height: 300px;
+        width: 420px;
+        float: left;
+        margin-left: 70px;
+        text-align: justify;
+     
+    }
+
+    /*sección del trailer*/
+    .popp{
+        font-family: 'Poppins', sans-serif;
+        font-size: 50px;   
+        color: black;
+        }
+        
+        .montse{
+            font-size:48px;       
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Montserrat Alternates', sans-serif;
+            color: black;
+        
+        }
+        
+        .imagensita{
+            margin-left: 100px;
+        }
+        .toto{
+            height: 300px;
+            float: left;
+            margin-left: 60px;
+            margin-top: 80px;
+        
+        }
+        
+        .borde{
+    margin-left: 40px;
+    float: left;
+    margin-top: 50px;
+        
+        }
+        
+/*final del contenido del trailer*/
 /* Final de contenido */
 /* Inicio de footer */
 

@@ -2,7 +2,222 @@
         
 /* Cierre de nav */
 /* Inicio de contenido (poner el código de HTML en la división que le corresponda, el espacio que está entre el inicio y cierre de las secciones es para que pongan el código) */
+   .texto1{
+    height: 200px ;
+    width: 200px;
+    float: left;
+    margin-top: 17px;
+    margin-left: 0px;
+   }
+
+   .icon1{
+    margin: 10px;
+    height: 200px;
+    width: 160px;
+    float: left;
+    margin-left: 0px;
+   }
+
+
+   .texto2{
+    height: 220px ;
+    width: 240px;
+    float: left;
+    margin-top: 17px;
+    margin-left:10px;
     
+    }
+   .icon2{
+     height: 200px;
+     width: 190px;
+     float: left;
+     margin-left: 60px;
+     margin-top: 10px;
+  
+    }
+
+    .icon3{
+        height: 200px;
+        width: 160px;
+        float: left;
+        margin-left: 25px;
+        margin-top: 10px;
+       
+    }
+    
+    .texto3{
+            height: 200px ;
+            width: 250px;
+            float: left;
+            margin-top: 17px;
+            margin-left: 10px;
+          }
+
+    .icon4{
+            margin: 10px;
+            height: 200px;
+            width: 150px;
+            float: left;
+            margin-left: 10px;
+           
+    }
+
+    .texto4{
+        height: 200px ;
+        width: 240px;
+        float: left;
+        margin-top: 17px;
+        margin-left: 5px;
+            
+        
+        }
+    .icon5{
+    height: 200px;
+    width: 160px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 10px;
+         
+     }
+
+    .texto5{
+        height: 200px ;
+        width: 260px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 20px;
+            
+     }
+
+    
+
+    .icon6{
+    height: 200px;
+    width: 160px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+ 
+    }
+
+    .texto6{
+    height: 200px ;
+    width: 230px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+               
+     }
+
+    /* los sections  S1 y Ab*/
+     .s1{
+     margin-top: 30px;
+     height: 310px;
+     width: 1330px;
+       }
+
+    .Ab{
+     margin-top: 20px;
+     height: 300px;
+     width: 1330px;
+    }
+    
+    .cuadrado{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+    height: 80px;
+    width: 1330px;
+    }
+    
+    .cuadrado::after,.cuadrado::before{
+     content: '';
+     position: absolute;
+     width: 450px;
+     height: 6px;
+     background-color: black;
+     top: 120px;}
+    
+     .cuadrado::before{
+      left: 5px;}
+            
+     .cuadrado::after{
+       right: 5px;}
+    
+     .Poppins{
+      font-family: 'Poppins', sans-serif;
+      font-size: 22px;
+      margin-top: 20px;
+      text-align: justify;
+        }
+    
+    
+      .text{
+        
+     font-family: 'Montserrat', sans-serif;
+     font-family: 'Montserrat Alternates', sans-serif;
+     text-align: center;
+     color: black;
+     font-size:25px;
+     height: auto;
+                  
+    }
+    /* parte de Luci*/
+   /*parte de Allison*/
+
+   /* Estilo para el contenedor principal */
+   .contenedor {
+    background-image: url(extras/Objectives.png);
+    background-size: cover;
+    background-position: center;
+    height: 750px; 
+    position: relative;
+    color: #000000; 
+   }
+
+/* Estilo para el texto */
+   .Pe{
+    font-size: 23px;
+    text-align: center;
+    margin-top: 2cm;
+    margin-left: 5cm;
+    margin-right: 5cm;
+
+    
+    }
+    .texto {
+    position: absolute;
+    text-align: right;
+    top: 40%; 
+    right: 30px; 
+    transform: translateY(-20%); 
+    }
+
+/* Estilo más detallado para el texto*/
+    .texto h1 {
+    font-size: 43px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 1cm;
+    color: rgb(76, 200, 101);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    }
+
+   .texto p {
+    margin-top: 40px;
+    font-size: 23px;
+    text-align: right;
+    margin-left: 18cm;
+    margin-right: 1cm;
+    text-align: justify;
+    width: 700px;
+    }
+                
+
 /* Final de contenido */
 /* Inicio de footer */
 
