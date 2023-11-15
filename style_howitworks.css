@@ -53,6 +53,15 @@ li a:active{
 /* Cierre de nav */
 /* Inicio de contenido (poner el código de CSS en la división que le corresponda, el espacio que está entre el inicio y cierre de las secciones es para que pongan el código)
 no puse el CSS por que no se cual es (eimy) */
+
+/* Carrusel */
+.kim{
+  width: 1310px;
+  height: 60px;
+  margin-right: 30px;
+  margin-left: 30px;
+  align-items: center;
+}
     
 /* Final de contenido */
 /* Inicio de footer */
