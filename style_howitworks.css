@@ -53,7 +53,52 @@ li a:active{
 /* Cierre de nav */
 /* Inicio de contenido (poner el código de CSS en la división que le corresponda, el espacio que está entre el inicio y cierre de las secciones es para que pongan el código)
 no puse el CSS por que no se cual es (eimy) */
+.howsito{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.cuadroizquierdo{
 
+        float: left;
+        height: 260px;
+        width: 540px;
+        background-color: rgb(183, 255, 255);
+        margin-left: 90px;
+        margin-top: 30px;
+        border-radius: 30px;
+        text-align: justify;
+    }
+
+    .cuadroderecho{
+        float: left;
+        height: 260px;
+        width: 540px;
+        background-color: rgb(183, 255, 255);
+        font-family: 'Poppins', sans-serif;
+        margin-left: 100px;
+        border-radius: 30px;
+        margin-top: 30px;
+        text-align: justify;
+    }
+
+    .fondodecajas{
+     background-color: rgb(77, 213, 255);
+    height: 318px;
+    width: 1350px;
+    margin-top: 30px;
+    
+    }
+
+    .textodelcuadroizquierdo{
+        margin-top: 70px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center
+    }
+
+    .textodelcuadroderecho{
+        margin-top: 40px;
+        text-align: center;
+    }
 /* Carrusel */
 .kim{
   width: 1310px;
