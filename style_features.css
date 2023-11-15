@@ -111,5 +111,105 @@ li a:active{
       
 /* Final de contenido */
 /* Inicio de footer */
-
+.final{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    margin-top: 60%;
+    background: linear-gradient(to right, #74ebfd, #85EAFA, #CFEEF4);
+   }
+   
+   .final .grupo1 {
+     width: 100%;
+     max-width: 1200px;
+     margin: 10px 100px;
+     display:grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+   }
+   
+   .final .grupo1 .box{
+     width: 80%; 
+     margin: 0 auto;
+   }
+   
+   .final .grupo1 .box h1{
+     color: white;
+     margin-bottom: 30px;
+     font-size: 18px;
+     font-family: 'Poppins', sans-serif;
+     border-bottom: 2px solid grey;
+     padding-bottom: 8px;
+     display: inline-block;
+   }
+   
+   .final .grupo1 .box li{
+     margin-bottom: 15px;
+     display: block;
+     transition: all .3s ease;
+   }
+   
+   .final .grupo1 .box li:hover{
+     color: black;
+     padding-left: 6px;
+   }
+   
+   .final .grupo1 .box h2{
+     color: black;
+     font-size: 16px;
+     font-family: 'Poppins', sans-serif;
+   }
+   
+   .final .grupo1 .box h3{
+     color: black;
+     font-size: 14px;
+     font-family: 'Poppins', sans-serif;
+   }
+   
+   .final .grupo1 .box p{
+     margin-bottom: 25px;
+   }
+   
+   .final .grupo1 .box ul {
+     list-style: none;
+   }
+   
+   .final .grupo1 .box figure{
+     width: 25% ;
+     height: 120px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   
+   .final .grupo1 .box figure img{
+     width: 250px;
+   }
+   
+   .final .grupo1 .redes a{
+     display: inline-block;
+     width: 40px;
+     height: 40px;
+     line-height: 45px;
+     margin-bottom: 15px;
+     background-color: lightcyan;
+     color: black;
+     border-radius: 50%;
+     text-align: center;
+     transform: all .5s ease;
+   }
+   
+   .final .grupo1 .redes a:hover{
+     background-color: white;
+   }
+   
+   .final .grupo2{
+     color: turquoise;
+     background-color: white;
+     padding: 10px 5px;
+     text-align: center;
+   }
+   
+   .final .grupo2 small{
+     font-size: 15px;
+   }
 /* Cierre de footer */
