@@ -274,7 +274,7 @@ li a:active{
   margin: 0px;
   padding: 0px;
   width: 100%;
-  margin-top: 60%;
+  margin-top: 50%;
   background: linear-gradient(to right, #74ebfd, #85EAFA, #CFEEF4);
  }
  
@@ -293,7 +293,7 @@ li a:active{
  
  .final .grupo1 .box h1{
    color: white;
-   margin-bottom: 30px;
+   margin-bottom: 18px;
    font-size: 18px;
    font-family: 'Poppins', sans-serif;
    border-bottom: 2px solid grey;
@@ -330,6 +330,7 @@ li a:active{
  
  .final .grupo1 .box ul {
    list-style: none;
+   padding: 0px;
  }
  
  .final .grupo1 .box figure{
