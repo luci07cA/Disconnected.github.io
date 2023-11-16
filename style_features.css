@@ -11,7 +11,7 @@ nav li{
   margin-right: 20px;
  }
 
-li a{
+nav li a{
   text-decoration: none;
   color: turquoise;
  padding: 5px 10px;
@@ -20,12 +20,12 @@ li a{
  font-weight: bold;
  }
 
-li a:hover {
+nav li a:hover {
   background-color: turquoise;
   color: white;
  }
 
-li a:active{
+nav li a:active{
   background-color: gray;
   color: white;
  }
