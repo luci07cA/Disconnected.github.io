@@ -149,15 +149,12 @@ li a:active{
       color: white;
      }
       /*inicio de figuritas*/
-      .figuritas{
+      .figuritas li{
+        display: inline;
         position: relative;
         top: -110px;
         left: 940px;
         right:0px ;
-      }
-      
-      .figuritas li{
-        display: inline;
       }
       
       .figuritas ul{
