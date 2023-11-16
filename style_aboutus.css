@@ -149,18 +149,19 @@ li a:active{
       color: white;
      }
       /*inicio de figuritas*/
-      .figurita1 a{
+      .figuritas{
         position: relative;
         top: -110px;
-        left: 950px;
+        left: 940px;
         right:0px ;
       }
       
-      .figurita2 a{
-        position: relative;
-        top: -175px;
-        left:1140px ;
-        right:0px ;
+      .figuritas li{
+        display: inline;
+      }
+      
+      .figuritas ul{
+        list-style:none ; 
       }
       /*final de figuritas*/
        /*inicio de contenido de home*/
