@@ -148,20 +148,7 @@ nav li a:active{
       background-color: gray;
       color: white;
      }
-      /*inicio de figuritas*/
-      .figuritas li{
-        display: inline;
-        position: relative;
-        top: 1000px;
-        left: 940px;
-        right:0px ;
-        z-index: 3;
-      }
-      
-      .figuritas ul{
-        list-style:none ; 
-      }
-      /*final de figuritas*/
+     
        /*inicio de contenido de home*/
         
     .N1{
