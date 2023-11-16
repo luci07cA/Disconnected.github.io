@@ -152,10 +152,10 @@ nav li a:active{
       .figuritas li{
         display: inline;
         position: relative;
-        top: 410px;
+        top: 1000px;
         left: 940px;
         right:0px ;
-        z-index: 2;
+        z-index: 3;
       }
       
       .figuritas ul{
