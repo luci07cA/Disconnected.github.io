@@ -107,7 +107,7 @@ nav li a:active{
     }
     
     /* Estilos CSS para el botón */
-    button {
+    .botones {
         padding: 20px 26px; 
         font-size: 18px; 
         background-color:rgb(30, 224, 224);
