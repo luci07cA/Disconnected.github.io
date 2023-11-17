@@ -54,51 +54,73 @@ nav li a:active{
 /* Inicio de contenido (poner el código de CSS en la división que le corresponda, el espacio que está entre el inicio y cierre de las secciones es para que pongan el código)
 no puse el CSS por que no se cual es (eimy) */
 .howsito{
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Montserrat Alternates', sans-serif;
-}
-.cuadroizquierdo{
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
+  height: 20px ;
+  width: 1330px;
+  margin-top: 10px;
+  font-size: 20px;
+  }
+  .cuadroizquierdo{
 
-        float: left;
-        height: 260px;
-        width: 540px;
-        background-color: rgb(183, 255, 255);
-        margin-left: 90px;
-        margin-top: 30px;
-        border-radius: 30px;
-        text-align: justify;
-    }
+      float: left;
+      height: 260px;
+      width: 540px;
+      background-color: rgba(183, 255, 255, 0.678);
+      margin-left: 90px;
+      margin-top: 30px;
+      border-radius: 30px;
 
-    .cuadroderecho{
-        float: left;
-        height: 260px;
-        width: 540px;
-        background-color: rgb(183, 255, 255);
-        font-family: 'Poppins', sans-serif;
-        margin-left: 100px;
-        border-radius: 30px;
-        margin-top: 30px;
-        text-align: justify;
-    }
+   }
 
-    .fondodecajas{
-     background-color: rgb(77, 213, 255);
-    height: 318px;
-    width: 1350px;
-    margin-top: 30px;
-    
-    }
+  .cuadroderecho{
+      float: left;
+      height: 260px;
+      width: 540px;
+      background-color: rgba(183, 255, 255, 0.678);
+      margin-left: 100px;
+      border-radius: 30px;
+      margin-top: 30px;
 
-    .textodelcuadroizquierdo{
-        margin-top: 70px;
-        font-family: 'Poppins', sans-serif;
-        text-align: center
-    }
+  }
 
-    .textodelcuadroderecho{
-        margin-top: 40px;
-        text-align: center;
-    }
+  .fondodecajas{
+   background-color: rgb(33, 235, 235);
+   height: 318px;
+   width: 1350px;
+   margin-top: 60px;
+  
+  }
+
+  .textodelcuadroizquierdo{
+      margin: 40px;
+      font-family: 'Poppins', sans-serif;
+      text-align: justify;
+  }
+
+  .textodelcuadradoderecho{
+      margin: 30px;
+      font-family: 'Poppins', sans-serif;
+      text-align: justify;
+  }
+
+      
+
+      .howsito::after,.howsito::before{
+          content: '';
+      position: absolute;
+      width: 350px;
+      height: 6px;
+      background-color: black;
+      top: 120px;}
+
+      .howsito::before{
+      left: 1px;}
+      
+      .howsito::after{
+      right: 1px;
+  
+      }
 /* Carrusel */
 .kim{
   width: 1310px;

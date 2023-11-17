@@ -163,13 +163,13 @@ nav li a:active{
      .s1{
      margin-top: 30px;
      height: 310px;
-     width: 1550px;
+     width: 1330px;
        }
 
     .Ab{
      margin-top: 20px;
      height: 300px;
-     width: 1550px;
+     width: 1330px;
     }
     
     .cuadrado{
@@ -180,7 +180,7 @@ nav li a:active{
     font-size: 20px;
     margin-top: 10px;
     height: 80px;
-    width: 1550px;
+    width: 1330px;
     }
     
     .cuadrado::after,.cuadrado::before{
