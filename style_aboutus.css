@@ -69,7 +69,7 @@ nav li a:active{
     left: 0;
     right: 0;
     object-fit: cover;
-    width: 1330px;
+    width: 100%;
     }
     
     .promo{
@@ -155,8 +155,13 @@ nav li a:active{
     .N1{
         background-color: rgb(33, 235, 235);
         height: 450px;
-        width: 1330px;
+        width: 100%;
         }
+
+    .N2{
+      width: 100%;
+    }
+    
     h1{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Montserrat Alternates', sans-serif;
