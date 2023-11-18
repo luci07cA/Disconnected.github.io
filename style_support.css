@@ -81,7 +81,85 @@ nav li a:active{
     }
     /* Cierre banner */
     /* Inicio sugerencias/soporte */
- 
+ .sugerencia{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 22px;
+}
+
+.cuadroizquierdosp{
+        float: left;
+        height: 260px;
+        width: 540px;
+        margin-left: 90px;
+        margin-top: 30px;
+        border-radius: 30px;
+        text-align: justify;
+    }
+
+ .textodelcuadroizquierdosp{
+        margin-top: 40px;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Montserrat Alternates', sans-serif;
+        text-align: center
+    }
+
+
+    .Click1{
+        width: 110px;
+        height: 115px;
+        margin-left: 200px;
+        border-style: solid;
+        border-color: gray;
+        border-radius: 20px;
+        border-width: 5px;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Montserrat Alternates', sans-serif;
+    }
+
+    .cuadroderechosp{
+        float: left;
+        height: 260px;
+        width: 540px;
+        margin-left: 100px;
+        border-radius: 30px;
+        margin-top: 30px;
+        text-align: justify;
+    }
+
+    .soptec{
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-size: 22px;
+    }
+
+    .textodelcuadroderechosp{
+        margin-top: 40px;
+        font-size: 15px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Montserrat Alternates', sans-serif;
+        margin-left: 5px;
+    }
+
+
+  a{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.Click2{
+    width: 110px;
+    height: 115px;
+    margin-left: 200px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 20px;
+    border-width: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
     /* Cierre sugerencia/soporte */
     /* Inicio preguntas populares */
     body {
