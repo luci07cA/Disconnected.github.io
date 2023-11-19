@@ -274,7 +274,7 @@ nav li a:active{
   margin: 0px;
   padding: 0px;
   width: 100%;
-  margin-top: 3%;
+  margin-top: 0%;
   background: linear-gradient(to right, #74ebfd, #85EAFA, #CFEEF4);
  }
  
@@ -284,6 +284,7 @@ nav li a:active{
    margin: 10px 100px;
    display:grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
+   margin-top: 5px;
  }
  
  .final .grupo1 .box{

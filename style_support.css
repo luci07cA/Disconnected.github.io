@@ -81,255 +81,258 @@ nav li a:active{
     }
     /* Cierre banner */
     /* Inicio sugerencias/soporte */
- .sugerencia{
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 22px;
-}
+ 
+ .titulo{
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 22px;
+  color: black;
+ } 
 
 .cuadroizquierdosp{
-        float: left;
-        height: 260px;
-        width: 540px;
-        margin-left: 90px;
-        margin-top: 30px;
-        border-radius: 30px;
-        text-align: justify;
-    }
+      float: left;
+      height: 260px;
+      width: 540px;
+      margin-left: 90px;
+      margin-top: 30px;
+      border-radius: 30px;
+      
+  }
 
- .textodelcuadroizquierdosp{
-        margin-top: 40px;
-        font-size: 15px;
-        font-family: 'Montserrat', sans-serif;
-        font-family: 'Montserrat Alternates', sans-serif;
-        text-align: center
-    }
+.textodeloscuadros{
+      margin-top: 40px;
+      font-size: 20px;
+      font-family: 'Poppins', sans-serif;
+      text-align: center
 
-
-    .Click1{
-        width: 110px;
-        height: 115px;
-        margin-left: 200px;
-        border-style: solid;
-        border-color: gray;
-        border-radius: 20px;
-        border-width: 5px;
-        font-family: 'Montserrat', sans-serif;
-        font-family: 'Montserrat Alternates', sans-serif;
-    }
-
-    .cuadroderechosp{
-        float: left;
-        height: 260px;
-        width: 540px;
-        margin-left: 100px;
-        border-radius: 30px;
-        margin-top: 30px;
-        text-align: justify;
-    }
-
-    .soptec{
-        font-family: 'Montserrat', sans-serif;
-        font-family: 'Montserrat Alternates', sans-serif;
-        font-size: 22px;
-    }
-
-    .textodelcuadroderechosp{
-        margin-top: 40px;
-        font-size: 15px;
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
-        font-family: 'Montserrat Alternates', sans-serif;
-        margin-left: 5px;
-    }
+  }
 
 
-  a{
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Montserrat Alternates', sans-serif;
-}
+  .Click1{
+      width: 130px;
+      height: 118px;
+      margin-left: 200px;
+      border-style: solid;
+      border-color: gray;
+      border-radius: 20px;
+      border-width: 5px;
+      font-family: 'Montserrat', sans-serif;
+      font-family: 'Montserrat Alternates', sans-serif;
+      margin-top: 25px;
+      font-size: 20px;
+      
+  }
+
+  .cuadroderechosp{
+      float: left;
+      height: 260px;
+      width: 540px;
+      margin-left: 100px;
+      border-radius: 30px;
+      margin-top: 30px;
+     
+      
+  }
 
 .Click2{
-    width: 110px;
-    height: 115px;
-    margin-left: 200px;
-    border-style: solid;
-    border-color: gray;
-    border-radius: 20px;
-    border-width: 5px;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+  width: 130px;
+  height: 118px;
+  margin-left: 200px;
+  border-style: solid;
+  border-color: gray;
+  border-radius: 20px;
+  border-width: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
     /* Cierre sugerencia/soporte */
     /* Inicio preguntas populares */
     body {
-        margin-left: 2cm;
-        padding: 0;
-    }
-    
-    .caja {
-        width: 95%; 
-        height: 14cm;
-        display: flex;
-        border: 4px solid #000000;
-    }
-    
-    .division {
-        flex: 1;
-        border-right: 4px solid #000000; 
-        box-sizing: border-box ; 
-    }
-    .contenido {
-        padding: 20px; 
-        text-align: left; 
-    }
-    
-    /* Estilos CSS para el botón */
-    .botones {
-        padding: 20px 26px; 
-        font-size: 18px; 
-        background-color:rgb(30, 224, 224);
-        color: white; 
-        border: none; 
-        border-radius: 4px; 
-        cursor:pointer; 
-    }
-    
-    button:hover {
-        background-color:rgb(45, 190, 190);
-    }
-    
-    a{
-        padding: 20px 26px; 
-        font-size: 18px; 
-        background-color:rgb(30, 224, 224);
-        color: white; 
-        border: none; 
-        border-radius: 4px; 
-        cursor:pointer; 
-    }
-    
-    a:hover{
-        background-color: rgb(45, 190, 190);
-    }
+      margin-left: 2cm;
+      padding: 0;
+  }
+  
+  .caja {
+      width: 95%; 
+      height: 14cm;
+      display: flex;
+      border: 4px solid #000000;
+      margin-left: 40px;
+      box-shadow: 20px 20px;
+  }
+  
+  
+  .division {
+      flex: 1;
+      border-right: 4px solid #000000; 
+      box-sizing: border-box ; 
+  }
 
-    h4{
+  .contenido {
+      padding: 20px; 
+      text-align: left; 
+  }
+  
+  /* Estilos CSS para el botón */
+ 
+  
+  button:hover {
+      background-color: rgba(183, 255, 255, 0.678)
+      ;
+  }
+
+
+
+  .prueba{
+      padding: 20px 26px; 
+      font-size: 18px; 
+      background-color:rgb(33, 235, 235);
+      color: white; 
+      border: none; 
+      border-radius: 4px; 
+      cursor:pointer; 
+      width: 200px;
       font-family: 'Montserrat', sans-serif;
       font-family: 'Montserrat Alternates', sans-serif;
+      color: black;
+     
   }
   
-  h5{
-      font-family: 'Poppins', sans-serif;
-      font-size: 20px;
-  }
+  .colorenlace{
+      color: black;
+      }
+
+  h4{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: black;
+}
+
+h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
   
-  h6{
-      font-family: 'Poppins', sans-serif;
-      font-size: 17px;
-  }
+}
+
+
+.Allison{
+  margin-top: 500px;
+}
     /* Cierre preguntas populares */
 /* Final de contenido */
 /* Inicio de footer */
 .final{
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-    margin-top: 50%;
-    background: linear-gradient(to right, #74ebfd, #85EAFA, #CFEEF4);
-   }
+  margin: 0%;
+  padding: 0px;
+  width: 98%;
+ 
+  margin: 15px;
+  margin-top: 10%;
+  background: linear-gradient(to right, #74ebfd, #85EAFA, #CFEEF4);
+ }
+ 
+ .final .grupo1 {
+   width: 100%;
+   max-width: 1200px;
+   margin: 10px 100px;
+   display:grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   height: 400px;
+ }
+ 
+ .final .grupo1 .box{
+   width: 80%; 
+   margin: 0 auto;
+   margin-top: 40px;
+ }
+ 
+ .final .grupo1 .box h1{
+   color: white;
+   margin-bottom: 18px;
+   font-size: 18px;
+   font-family: 'Poppins', sans-serif;
+   border-bottom: 2px solid grey;
+   padding-bottom: 8px;
+   display: inline-block;
+
+ }
+ 
+ .final .grupo1 .box li{
+   margin-bottom: 15px;
+   display: block;
+   transition: all .3s ease;
+
+ }
+ 
+ .final .grupo1 .box li:hover{
+   color: black;
+   padding-left: 6px;
+ }
+ 
+ .final .grupo1 .box h2{
+   color: black;
+   font-size: 16px;
+   font-family: 'Poppins', sans-serif;
+ }
+ 
+ .final .grupo1 .box h3{
+   color: black;
+   font-size: 14px;
+   font-family: 'Poppins', sans-serif;
+ }
+ 
+ .final .grupo1 .box p{
+   margin-bottom: 25px;
+ }
+ 
+ .final .grupo1 .box ul {
+   list-style: none;
+   padding: 0px;
+ }
+ 
+ .final .grupo1 .box figure{
+   width: 25% ;
+   height: 120px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
    
-   .final .grupo1 {
-     width: 100%;
-     max-width: 1200px;
-     margin: 10px 100px;
-     display:grid;
-     grid-template-columns: 1fr 1fr 1fr 1fr;
-   }
-   
-   .final .grupo1 .box{
-     width: 80%; 
-     margin: 0 auto;
-   }
-   
-   .final .grupo1 .box h1{
-     color: white;
-     margin-bottom: 18px;
-     font-size: 18px;
-     font-family: 'Poppins', sans-serif;
-     border-bottom: 2px solid grey;
-     padding-bottom: 8px;
-     display: inline-block;
-   }
-   
-   .final .grupo1 .box li{
-     margin-bottom: 15px;
-     display: block;
-     transition: all .3s ease;
-   }
-   
-   .final .grupo1 .box li:hover{
-     color: black;
-     padding-left: 6px;
-   }
-   
-   .final .grupo1 .box h2{
-     color: black;
-     font-size: 16px;
-     font-family: 'Poppins', sans-serif;
-   }
-   
-   .final .grupo1 .box h3{
-     color: black;
-     font-size: 14px;
-     font-family: 'Poppins', sans-serif;
-   }
-   
-   .final .grupo1 .box p{
-     margin-bottom: 25px;
-   }
-   
-   .final .grupo1 .box ul {
-     list-style: none;
-     padding: 0px;
-   }
-   
-   .final .grupo1 .box figure{
-     width: 25% ;
-     height: 120px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-   }
-   
-   .final .grupo1 .box figure img{
-     width: 250px;
-   }
-   
-   .final .grupo1 .redes a{
-     display: inline-block;
-     width: 40px;
-     height: 40px;
-     line-height: 45px;
-     margin-bottom: 15px;
-     background-color: lightcyan;
-     color: black;
-     border-radius: 50%;
-     text-align: center;
-     transform: all .5s ease;
-   }
-   
-   .final .grupo1 .redes a:hover{
-     background-color: white;
-   }
-   
-   .final .grupo2{
-     color: turquoise;
-     background-color: white;
-     padding: 10px 5px;
-     text-align: center;
-   }
-   
-   .final .grupo2 small{
-     font-size: 15px;
-   }
+ }
+ 
+ 
+ .final .grupo1 .box figure img{
+   width: 250px;
+   margin-left: 105px;
+ }
+ 
+ .final .grupo1 .redes a{
+   display: inline-block;
+   width: 40px;
+   height: 40px;
+   line-height: 45px;
+   margin-bottom: 15px;
+   background-color: lightcyan;
+   color: black;
+   border-radius: 50%;
+   text-align: center;
+   transform: all .5s ease;
+ }
+ 
+ .final .grupo1 .redes a:hover{
+   background-color: white;
+ }
+ 
+ .final .grupo2{
+   color: turquoise;
+   background-color: white;
+   padding: 10px 5px;
+   text-align: center;
+ }
+ 
+ .final .grupo2 small{
+   font-size: 15px;
+ }
+
 /* Cierre de footer */
