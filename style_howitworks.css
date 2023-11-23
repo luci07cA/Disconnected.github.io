@@ -61,51 +61,8 @@ no puse el CSS por que no se cual es (eimy) */
   margin-top: 10px;
   font-size: 20px;
   }
-  .cuadroizquierdo{
-
-      float: left;
-      height: 260px;
-      width: 540px;
-      background-color: rgba(183, 255, 255, 0.678);
-      margin-left: 90px;
-      margin-top: 30px;
-      border-radius: 30px;
-
-   }
-
-  .cuadroderecho{
-      float: left;
-      height: 260px;
-      width: 540px;
-      background-color: rgba(183, 255, 255, 0.678);
-      margin-left: 100px;
-      border-radius: 30px;
-      margin-top: 30px;
-
-  }
-
-  .fondodecajas{
-   background-color: rgb(33, 235, 235);
-   height: 318px;
-   width: 1350px;
-   margin-top: 60px;
+ 
   
-  }
-
-  .textodelcuadroizquierdo{
-      margin: 40px;
-      font-family: 'Poppins', sans-serif;
-      text-align: justify;
-      font-size: 15px;
-    font-size: 1.7rem;
-  }
-
-  .textodelcuadradoderecho{
-     font-size: 13px;
-      margin: 30px;
-      font-family: 'Poppins', sans-serif;
-      text-align: justify;
-  }
 
       
 
