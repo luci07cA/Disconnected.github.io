@@ -63,8 +63,8 @@ no puse el CSS por que no se cual es (eimy) */
   }
  
   /* Estilo para el contenedor principal */
-.Cont {
-  background-image: url(extras/HDW.png);
+.cont{
+  background-image: url(extras/);
   background-size: cover;
   background-position: center;
   height: 930px; 
