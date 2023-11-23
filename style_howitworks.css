@@ -57,16 +57,19 @@ no puse el CSS por que no se cual es (eimy) */
   font-family: 'Montserrat', sans-serif;
   font-family: 'Montserrat Alternates', sans-serif;
   height: 20px ;
-  width: 1330px;
-  margin-top: 10px;
+  width: 100%;
+  margin-top: 20px;
   font-size: 20px;
+  color: black;
+  z-index: 1;
+  position: absolute;
   }
  
   /* Estilo para el contenedor principal */
 .cont{
-  height: 930px; 
-  width: 1570px;
-  position: relative
+  height: 500px; 
+  width: 10px ;
+  margin-left: 200px;
 }
 
 .firsttext p {
@@ -95,7 +98,7 @@ no puse el CSS por que no se cual es (eimy) */
     height: 200px;
     width: 1000px;
     margin-top: 370px;
-    font-size: 25px;
+    font-size: 30px;
 }
     
 /* Final de contenido */
@@ -109,7 +112,7 @@ no puse el CSS por que no se cual es (eimy) */
     margin: 0px;
     padding: 0px;
     width: 100%;
-    margin-top: 20%;
+    margin-top: 50%;
     background: linear-gradient(to right, #74ebfd, #85EAFA, #CFEEF4);
    }
    
