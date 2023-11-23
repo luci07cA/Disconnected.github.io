@@ -64,7 +64,7 @@ no puse el CSS por que no se cual es (eimy) */
  
   /* Estilo para el contenedor principal */
 .cont{
-  background-image: url(extras/HDW3.png);
+  background-image: url(extras/HDW4.jpg);
   background-size: cover;
   background-position: center;
   height: 930px; 
@@ -74,7 +74,7 @@ no puse el CSS por que no se cual es (eimy) */
   margin-top: 0;
 }
 
-.firstext{
+.textito{
     margin-top: 80px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
