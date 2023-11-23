@@ -252,12 +252,6 @@ nav li a:active{
 /*final del contenido del trailer*/
 /* Final de contenido */
 /* Inicio de footer */
-    .abo{
-        font-family: 'Poppins', sans-serif;
-        text-align: center;
-        margin-left: -15px;
-    }
-
 .final{
     margin: 0px;
     padding: 0px;
@@ -266,6 +260,12 @@ nav li a:active{
     background: linear-gradient(to right, #74ebfd, #85EAFA, #CFEEF4);
    }
    
+   .abo{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-left: -15px;
+}
+
    .final .grupo1 {
      width: 100%;
      max-width: 1200px;
