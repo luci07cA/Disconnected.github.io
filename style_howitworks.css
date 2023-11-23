@@ -74,13 +74,13 @@ no puse el CSS por que no se cual es (eimy) */
   margin-top: 0;
 }
 
-
-.textito p {
-  font-size: 30px;
-  margin-left: 6cm;
-  margin-right: 6cm;
-  text-align: center;
-  margin-top: 18cm;
+.firstext{
+    text-align: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    height: 200px;
+    width: 400px;
+    margin-left: 470px;
 }
 
 /* Carrusel */
@@ -91,6 +91,15 @@ no puse el CSS por que no se cual es (eimy) */
   margin-left: 200px;
   margin-top: 40px;
   align-items: center;
+}
+
+.secondtext{
+    text-align: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    height: 200px;
+    width: 470px;
+    margin-left: 470px;
 }
     
 /* Final de contenido */
