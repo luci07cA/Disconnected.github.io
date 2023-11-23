@@ -74,14 +74,15 @@ no puse el CSS por que no se cual es (eimy) */
   margin-top: 0;
 }
 
-.textito{
+.firsttext p {
     margin-top: 80px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     width: 1000px;
     height: 200px;
-    font-size: 25px;
+    font-size: 30px;
 }
+
 
 /* Carrusel */
 .kim{
