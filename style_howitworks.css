@@ -77,10 +77,10 @@ no puse el CSS por que no se cual es (eimy) */
 .firstext{
     margin-top: 80px;
     text-align: center;
-    text-align: center;
     font-family: 'Poppins', sans-serif;
-    width: 400px;
-    margin-left: 470px;
+    width: 1000px;
+    height: 200px;
+    font-size: 25px;
 }
 
 /* Carrusel */
@@ -95,12 +95,11 @@ no puse el CSS por que no se cual es (eimy) */
 
 .secondtext{
     text-align: center;
-    text-align: center;
     font-family: 'Poppins', sans-serif;
     height: 200px;
-    width: 470px;
+    width: 1000px;
     margin-top: 370px;
-    margin-left: 470px;
+    font-size: 25px;
 }
     
 /* Final de contenido */
