@@ -118,7 +118,7 @@ nav li a:active{
     margin-top: 2%;
     background: linear-gradient(to right, #74ebfd, #85EAFA, #CFEEF4);
    }
-   
+
    .abo{
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -130,7 +130,7 @@ nav li a:active{
      max-width: 1200px;
      margin: 10px 100px;
      display:grid;
-     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-template-columns: auto auto auto auto;
    }
    
    .final .grupo1 .box{
