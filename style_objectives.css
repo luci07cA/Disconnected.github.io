@@ -270,6 +270,11 @@ nav li a:active{
 
 /* Final de contenido */
 /* Inicio de footer */
+    .abo{
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        margin-left: -15px;
+    }
 .final{
   margin: 0px;
   padding: 0px;
