@@ -134,6 +134,7 @@ no puse el CSS por que no se cual es (eimy) */
      border-bottom: 2px solid grey;
      padding-bottom: 8px;
      display: inline-block;
+     margin-top: 15px;
    }
    
    .final .grupo1 .box li{
@@ -174,10 +175,8 @@ no puse el CSS por que no se cual es (eimy) */
      display: flex;
      justify-content: center;
      align-items: center;
-   }
-   
-   .final .grupo1 .box figure img{
-     width: 250px;
+     margin-left: 65px;
+     margin-top: 10px;
    }
    
    .final .grupo1 .redes a{

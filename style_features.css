@@ -180,10 +180,7 @@ nav li a:active{
      display: flex;
      justify-content: center;
      align-items: center;
-   }
-   
-   .final .grupo1 .box figure img{
-     width: 250px;
+     margin-left: 65px;
    }
    
    .final .grupo1 .redes a{
