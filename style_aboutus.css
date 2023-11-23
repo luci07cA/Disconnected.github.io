@@ -252,9 +252,11 @@ nav li a:active{
 /*final del contenido del trailer*/
 /* Final de contenido */
 /* Inicio de footer */
-.box{
-    font-family: 'Poppins', sans-serif;
-}
+    .abo{
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        margin-left: -15px;
+    }
 
 .final{
     margin: 0px;
