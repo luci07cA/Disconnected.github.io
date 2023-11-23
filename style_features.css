@@ -112,13 +112,13 @@ nav li a:active{
 /* Final de contenido */
 /* Inicio de footer */
 .final{
-     
     margin: 0px;
     padding: 0px;
     width: 100%;
     margin-top: 2%;
     background: linear-gradient(to right, #74ebfd, #85EAFA, #CFEEF4);
    }
+   
    .abo{
     font-family: 'Poppins', sans-serif;
     text-align: center;
