@@ -64,13 +64,9 @@ no puse el CSS por que no se cual es (eimy) */
  
   /* Estilo para el contenedor principal */
 .cont{
-  background-image: url(extras/HDW4.jpg);
-  background-size: cover;
-  background-position: center;
   height: 930px; 
   width: 1570px;
-  position: relative;
-  color: #000000; 
+  position: relative
   margin-top: 0;
 }
 
