@@ -83,23 +83,6 @@ no puse el CSS por que no se cual es (eimy) */
   margin-top: 18cm;
 }
 
-      
-
-      .howsito::after,.howsito::before{
-          content: '';
-      position: absolute;
-      width: 350px;
-      height: 6px;
-      background-color: black;
-      top: 120px;}
-
-      .howsito::before{
-      left: 1px;}
-      
-      .howsito::after{
-      right: 1px;
-  
-      }
 /* Carrusel */
 .kim{
   width: 1000px;
