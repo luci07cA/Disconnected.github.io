@@ -62,7 +62,26 @@ no puse el CSS por que no se cual es (eimy) */
   font-size: 20px;
   }
  
-  
+  /* Estilo para el contenedor principal */
+.Cont {
+  background-image: url(HDW.png);
+  background-size: cover;
+  background-position: center;
+  height: 930px; 
+  width: 100%px;
+  position: relative;
+  color: #000000; 
+  margin-top: 0;
+}
+
+
+.textito p {
+  font-size: 30px;
+  margin-left: 6cm;
+  margin-right: 6cm;
+  text-align: center;
+  margin-top: 18cm;
+}
 
       
 
